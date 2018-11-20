@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<block>
+  <name>ADSB Packet Generator</name>
+  <key>adsb_adsb_packet_generator</key>
+  <category>[adsb]</category>
+  <import>import adsb</import>
+  <make>adsb.adsb_packet_generator($file, $amp, $delay)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>ADS-B logfile location</name>
+    <key>file</key>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Amplitude</name>
+    <key>amp</key>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Delay between packets</name>
+    <key>delay</key>
+    <type>float</type>
+  </param>
+
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

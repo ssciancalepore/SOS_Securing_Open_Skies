@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="adsb__packet__generator_8h" local="no">adsb_packet_generator.h</includedby>
+    <incdepgraph>
+      <node id="27">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>gnuradio/attributes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="31">
+        <label>adsb_packet_generator_impl.h</label>
+        <link refid="adsb__packet__generator__impl_8h"/>
+      </node>
+      <node id="29">
+        <label>api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>adsb_packet_generator.h</label>
+        <link refid="adsb__packet__generator_8h"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a1d2f742f99700496707fa46d7edc6ee5" prot="public" static="no">
+        <name>ADSB_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/savio/prefix/default/src/gr-adsb/include/adsb/api.h" line="31" column="12" bodyfile="/home/savio/prefix/default/src/gr-adsb/include/adsb/api.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/savio/prefix/default/src/gr-adsb/include/adsb/api.h"/>
+  </compounddef>
+</doxygen>
