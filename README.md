@@ -32,6 +32,8 @@ $ sudo make install
 $ sudo ldconfig
 
 
+
+
 To install the ADS-B Receiver Module, run the following commands:
 sh
 $ cd <path_sos>/gr-air-modes/
@@ -48,6 +50,8 @@ To run the proof-of-concept, you need to maintain the three folders in the same 
 First, run the community server:
 sh
 $ python opensky-server.py
+
+
 
 then, if you are testing its working, you can use the simulation mode:
 sh
