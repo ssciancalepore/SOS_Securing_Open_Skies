@@ -1,0 +1,2 @@
+modes_rx -D addr=192.168.10.2 -A RX2 -f 833000000 -n > log4.txt
+modes_rx -D addr=192.168.10.4 -A RX2 -f 833000000 -n > log5.txt

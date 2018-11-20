@@ -1,0 +1,2 @@
+gr-air-modes warning: numpy+scipy not installed, FlightGear interface not supported
+
