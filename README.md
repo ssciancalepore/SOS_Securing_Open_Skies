@@ -24,7 +24,6 @@ Each part is in a different folder, identified via related names.
 
 To install the ADS-B Transmitter modules, run the following commands:
 ```
-sh
 $ cd <path_sos>/gr-adsb/
 $ mkdir build
 $ cd build
@@ -33,39 +32,39 @@ $ sudo make install
 $ sudo ldconfig
 ```
 
-
-
 To install the ADS-B Receiver Module, run the following commands:
-sh
+```
 $ cd <path_sos>/gr-air-modes/
 $ mkdir build
 $ cd build
 $ make
 $ sudo make install
 $ sudo ldconfig
+```
 
 ### Usage
 
 To run the proof-of-concept, you need to maintain the three folders in the same path.
  
 First, run the community server:
-sh
+```
 $ python opensky-server.py
-
+```
 
 
 then, if you are testing its working, you can use the simulation mode:
-sh
+```
 $ ./test_opensky_server.sh
-
+```
 You will see that messages will start appearing on the console of the opensky server, and authenticity will be verified. Also, attacks will be simulated and rejected.
 
 Note that the opensky server and the emitter must be synchronized to achieve message authentication. This means that the number of messages delivered in the slot must match the number of messages in the variable NUM_TOT_PKTS_IN_SLOT
 
 
 If you are in real mode, using the Ettus Research Software Defined Radios, first you have to turn on your receivers, with the following command for each of the receivers:
-sh
+```
 $ modes_rx -D addr=<addr> -A RX2 -f 1090000000 -n > <output_file>
+```
 
 where:
 - <addr> is the IP address of your Ettus receiver
