@@ -23,6 +23,7 @@ Each part is in a different folder, identified via related names.
 ### Installation
 
 To install the ADS-B Transmitter modules, run the following commands:
+```
 sh
 $ cd <path_sos>/gr-adsb/
 $ mkdir build
@@ -30,7 +31,7 @@ $ cd build
 $ make
 $ sudo make install
 $ sudo ldconfig
-
+```
 
 
 
