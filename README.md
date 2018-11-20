@@ -67,8 +67,8 @@ $ modes_rx -D addr=<addr> -A RX2 -f 1090000000 -n > <output_file>
 ```
 
 where:
-- <addr> is the IP address of your Ettus receiver
-- <output_file> is the name of your output file. To allow the server to behave correctly, the output file should be in the local folder of the modes_rx application.
+- "<addr>" is the IP address of your Ettus receiver
+- "<output_file>" is the name of your output file. To allow the server to behave correctly, the output file should be in the local folder of the modes_rx application.
 
 
 Then, you can run the grc file gr-adsb/examples/test.grc in GNURadio and the whole proof-of-concept will start working. Alternatively, you can run the python generated file.
